@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+
+    <header class="logo">
+        <img src="imagens/Frame 6.svg" alt="" class="vector">
+        
+    </header>
+    
+    <div class="retangulo">
+        <textarea name="" id="saida" cols="21" rows="10" placeholder="O seu resultado será aqui" disabled></textarea>
+    </div>
+
+    <main>
+        <form class="encrypt">
+            <textarea name="" id="texto" placeholder="Digite texto aqui" cols="29" rows="20" ></textarea>
+        </form>
+        <div class="atencao">
+            <img src="imagens/Vector.svg" alt="">
+            <p>Apenas letras minúsculas e sem acento</p>
+        </div>
+        <div class="botao">
+            <button id="btncrypto" class="btncrypto">Criptografar</button>
+            <button id="btndescrypto" class="btndescrypto">Descriptografar</button>
+        </div>
+    </main>
+    <div>
+        <a href="https://github.com/josetrafalgar"> <img src="imagens/github.png" alt="" class="logo-git"> Josetrafalgar</a>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>

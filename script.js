@@ -38,6 +38,15 @@ function descriptografar() {
     }
 }
 
+    function copiar () {
+        var copytext = document.getElementById("saida");
+        copytext.select();
+        navigator.clipboard.writeText(copytext.value);
+
+        alert("Texto Copiado Com Sucesso")
+}
+
+
 btncrypto.onclick = criptografar;
 
 btndescrypto.onclick = descriptografar;
